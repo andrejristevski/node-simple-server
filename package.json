@@ -7,7 +7,16 @@
     "test": "mocha --recursive"
   },
   "dependencies": {
-    "express": "~4.11.1"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "~4.11.1",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.1.6",
+    "mongoose-type-email": "^1.0.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
